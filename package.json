@@ -4,8 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev-server": "ts-node src/server/index.ts",
-    "dev-bot": "ts-node src/bot/index.ts"
+    "dev": "ts-node src/index.ts",
+    "build": "tsc --outDir ./dist",
+    "start": "node ./dist"
   },
   "dependencies": {
     "cors": "^2.8.5",
