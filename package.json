@@ -1,0 +1,21 @@
+{
+  "name": "tg-ama",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev-server": "ts-node src/server/index.ts",
+    "dev-bot": "ts-node src/bot/index.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "grammy": "^1.33.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2"
+  }
+}
